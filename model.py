@@ -151,6 +151,3 @@ class FullyConnected(nn.Module):
         out_2 = self.fc2(x)
 
         return out_1, out_2
-
-
-
